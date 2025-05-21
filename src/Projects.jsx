@@ -31,14 +31,14 @@ const Projects = () => {
             <Link to="/projects/cloud-tracker" className="text-pink-600 mt-4 inline-block">View Project</Link>
           </div>
 
-          {/* Incident Tracker */}
+          {/* Twitter Clone */}
           <div className="bg-[#112240] p-6 rounded-lg shadow-lg transition duration-300 transform hover:-translate-y-1 hover:shadow-pink-500/50 hover:shadow-lg">
-          <h3 className="text-2xl font-bold text-white">Incident Tracker Web App</h3>
+          <h3 className="text-2xl font-bold text-white">Twitter Clone</h3>
           <p className="text-gray-400 mt-2">
-          A robust incident tracking platform engineered to handle system-critical event logging with real-time visibility and secure access control. 
-          The application uses React for the frontend and FastAPI with PostgreSQL on the backend. 
+          Twitter Clone is a full-stack social media web application built to replicate the core experience of Twitter, enabling users to post tweets, like, comment, follow others, and personalize their profiles. 
+          The backend is powered by Python with FastAPI, offering robust RESTful APIs and JWT-based authentication.
           </p>
-          <Link to="/projects/incident-tracker" className="text-pink-600 mt-4 inline-block">View Project</Link>
+          <Link to="/projects/twitter-clone" className="text-pink-600 mt-4 inline-block">View Project</Link>
           </div>
         </div>
 

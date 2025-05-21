@@ -20,7 +20,7 @@ const projects = [
       id: "cloud-tracker",
       title: "Cloud Cost Tracker",
       description: "Cloud Cost Tracker is a full-stack web application that empowers users to monitor, visualize, and optimize their monthly cloud infrastructure spending. Designed for developers and engineering teams alike, it features an intuitive dashboard that transforms raw billing data into actionable insights. The app supports secure Firebase authentication, real-time data filtering, and exportable reports, all wrapped in a modern, responsive UI with dark mode support.",
-      tech: "React, TypeScript, Firebase Authentication, Firebase Cloud Functions, Firestore, Chart.js, Recharts, CSS/Tailwind",
+      tech: "React · TypeScript · Firebase Authentication · Firebase Cloud Functions · Firestore · Chart.js · Recharts · CSS/Tailwind",
       features: [
         "Secure login with Firebase Authentication and JWT-protected API requests",
         "Interactive dashboard with real-time cloud cost visualizations",
@@ -34,6 +34,28 @@ const projects = [
       images: [
         "/images/google1.png",
         "/images/google2.png"
+      ]
+    },
+    {
+      id: "twitter-clone",
+      title: "Twitter Clone",
+      description: "Twitter Clone is a full-stack social media web application built to replicate the core experience of Twitter, enabling users to post tweets, like, comment, follow others, and personalize their profiles. The backend is powered by Python with FastAPI, offering robust RESTful APIs and JWT-based authentication. On the frontend, React delivers a responsive and intuitive interface optimized for both desktop and mobile. The project features secure image uploads, real-time feed updates, and scalable cloud deployment using AWS services. This app showcases a production-ready architecture with attention to security, performance, and user experience.",
+      tech: "React · JavaScript · FastAPI (Python) · PostgreSQL · AWS S3 · AWS EC2 · JWT · HTML/CSS",
+      features: [
+        "User authentication using JWT for secure session handling",
+        "Create, delete, and display tweets with real-time updates",
+        "Like and comment functionality on each tweet",
+        "Follow/unfollow system with personalized timelines",
+        "User profile editing with bio and profile picture upload",
+        "Image handling and storage via AWS S3",
+        "FastAPI-powered backend with clean RESTful routes",
+        "PostgreSQL database integration for relational data",
+        "Responsive UI design with mobile-first approach",
+        "Cloud deployment using AWS EC2 and environment variables"
+      ],
+      images: [
+        "/images/twitter1.png",
+        "/images/twitter2.png"
       ]
     },
     {
