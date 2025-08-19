@@ -236,8 +236,8 @@ const projects = [
       "Persistent storage using JSON serialization"
       ],
       images: [
-        "/images/C#.png",
-        "/images/C#1.png"
+        "/images/C1.png",
+        "/images/C2.png"
       ]
     }
   ];
