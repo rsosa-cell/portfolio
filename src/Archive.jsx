@@ -127,6 +127,14 @@ const Projects = () => {
             <Link to="/projects/tic-tac-toe" className="text-pink-600 mt-4 inline-block">View Project</Link>
           </div>
 
+          {/* C# Projects */}
+          <div className="bg-[#112240] p-6 rounded-lg shadow-lg transition duration-300 transform hover:-translate-y-1 hover:shadow-pink-500/50 hover:shadow-lg">
+          <h3 className="text-2xl font-bold text-white">Student Grade Tracker</h3>
+          <p className="text-gray-400 mt-2">C# · Console Application · JSON · OOP<br />
+          A console-based student grade tracker built in C#. Users can add students, record grades, and view all students with letter grade representations. Student data is saved to a JSON file for persistence across sessions.</p>
+          <Link to="/projects/student-grade-tracker" className="text-pink-600 mt-4 inline-block">View Project</Link>
+          </div>
+          
         </div>
       </div>
     </section>

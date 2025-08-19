@@ -224,9 +224,22 @@ const projects = [
         "/images/Tac2.png"
       ]
     },
-    
-
-    
+    {
+      id: "student-grade-tracker",
+      title: "Student Grade Tracker",
+      description: "A console-based C# application for managing student records and grades. Users can add students, record multiple grades, and view all students along with their letter grade representations. Student data is saved to a JSON file to ensure persistence across sessions. This project demonstrates skills in C#, OOP, data serialization, and user-friendly console interaction.",
+      tech: "C# · Console Application · JSON · OOP",
+      features: [
+      "Add students with unique IDs and multiple grades",
+      "Append grades to existing student records",
+      "View all students with numerical and letter grades",
+      "Persistent storage using JSON serialization"
+      ],
+      images: [
+        "/C#.png",
+        "/C#1.png"
+      ]
+    }
   ];
   
   export default projects;
