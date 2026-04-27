@@ -1,20 +1,29 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';  
-import HomePage from './HomePage';  
-import Archive from './Archive';    
-import ProjectDetail from './ProjectDetail'; 
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+
+import HomePage from "./pages/HomePage";
+import Projects from "./pages/Projects";
+import ProjectDetail from "./pages/ProjectDetail";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Experience from "./pages/Experience";
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Navbar />
+
       <Routes>
-        <Route path="/" element={<HomePage />} />   
-        <Route path="/archive" element={<Archive />} /> 
-        <Route path="/projects/:id" element={<ProjectDetail />} /> 
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 
