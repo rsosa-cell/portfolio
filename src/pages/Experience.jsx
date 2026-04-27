@@ -63,7 +63,6 @@ const Experience = () => {
 
         </div>
 
-        {/* View Resume Button */}
         <div className="mt-12">
           <a
             href="/Resume.pdf" 
