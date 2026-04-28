@@ -65,7 +65,7 @@ const Experience = () => {
 
         <div className="mt-12">
           <a
-            href="/Resume.pdf" 
+            href="/resume.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 border-2 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white transition duration-300"
